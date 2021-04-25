@@ -1,8 +1,16 @@
+<!--
+ * @,@Author: ,: your name
+ * @,@Date: ,: 2020-08-27 16:50:56
+ * @,@LastEditTime: ,: 2021-04-25 19:07:24
+ * @,@LastEditors: ,: your name
+ * @,@Description: ,: In User Settings Edit
+ * @,@FilePath: ,: /coinweb/coinweb/README.md
+ -->
 # ssrdemo
 
 > My stellar Nuxt.js project
 
-## Build Setup
+
 
 ```bash
 # install dependencies

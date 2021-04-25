@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Lato'; 
+    src: url('~assets/font/lato/Lato-Regular.ttf');
+  }
+*{box-sizing:border-box;}
+html {
+overflow-x: auto;
+overflow-y: scroll;
+}
+html ::-webkit-scrollbar,
+html ::-webkit-scrollbar-track {
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
+}
+html ::-webkit-scrollbar-thumb {
+  background-color: rgba(86, 94, 104, 0.5);
+  border-radius: 5px;
+}
+body,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+th,
+td {
+font-weight: 400;
+margin: 0;
+padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #FFFFFF;
+color: #666666;
+font-family: 'Lato', Arial, sans-serif;
+font-size: 14px;
+text-align: left;
+}
+select {
+font-size: 12px;
+}
+table {
+border-collapse: collapse;
+}
+fieldset,
+img {
+border: none;
+}
+fieldset {
+margin: 0;
+padding: 0;
+}
+fieldset p {
+margin: 0;
+padding: 0008px;
+}
+legend {
+display: none;
+}
+address,
+caption,
+em,
+strong,
+th,
+i {
+font-style: normal;
+font-weight: 400;
+}
+table caption {
+margin-left: -1px;
+}
+hr {
+border-bottom: 1pxsolid#FFFFFF;
+border-top: 1pxsolid#E4E4E4;
+border-width: 1px0;
+clear: both;
+height: 2px;
+margin: 5px0;
+overflow: hidden;
+}
+ol,
+ul {
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+}
+caption,
+th {
+text-align: left;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+content: ””;
+}
+$MyColor: #256cff;
+#app {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #505461;
+  background: #E7E9EE;
+  font-size: 14px;
+}
+a{
+  color: #5480d8;
+}
+.box {
+  border-radius: 4px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+.border{
+  border:1px solid #EAEAEA;
+}
+.radiu{
+  border-radius: 8px;
+}
+.margin{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.flex {
+  display: flex;
+}
+.Center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemCenter {
+  display: flex;
+  align-items: center;
+}
+.itemBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+.erect {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.pages{
+    text-align: center;
+    padding-top: 30px;
+}
+.el-table{
+  color: #50546A;
+  .el-table__row{
+      cursor: pointer;
+  }
+  .caret-wrapper{
+    width: 18px;
+  }
+}
+.down{
+  color:#B40300 !important;
+}
+.up{
+  color:#008555 !important;
+}
+.isShow{
+  height: 0;
+  overflow: hidden;
+}

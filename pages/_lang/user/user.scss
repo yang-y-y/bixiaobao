@@ -1,0 +1,146 @@
+.user{
+    width :1280px;
+    margin: 0 auto;
+    
+    .historyList{
+        h2{
+          margin-bottom: 20px;
+          font-weight: 500;
+          font-size: 16px;
+        }
+      }
+    .conLoading{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 5;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .leftMenu{
+            width: 300px;
+            .menu{
+                background: #ffffff;
+                margin-bottom: 20px;
+                padding:36px;
+                .menuList{
+                    margin-bottom: 20px;
+                }
+                .title{
+                    margin-bottom: 14px;
+                    font-weight: 600;
+                    font-size: 16px;
+                     
+                }
+                ul{
+                    li{
+                        cursor: pointer;
+                        line-height: 32px;
+                        height: 32px;
+                        padding-left: 12px;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-size: 16px;
+                        span.close{
+                            color: #AFAFAF;
+                            cursor: not-allowed;
+                        }
+                        i{
+                            display: none;
+                        }
+                        &:hover{
+                            color: #E95515;
+                        }
+                    }
+                    .active{
+                        color: #E95515;
+                        font-weight: 500;
+                            &::after{
+                            content: "";
+                            width: 4px;
+                            height: 15px;
+                            background: #E95515;
+                            position: absolute;
+                            left: 0;
+                            top: 7px;
+                        }
+                        i{
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .logout{
+                padding:20px 42px;
+                padding-left: 62px;
+                background: url('~@/assets/logout.png') no-repeat 42px center #ffffff;
+                background-size: 17px;
+                cursor: pointer;
+            }
+        }
+        .rightCon{
+            width: 960px;
+            background: #ffffff;
+            padding: 56px 70px;
+            min-height: 900px;
+            position: relative;
+            .title{
+                margin-bottom: 30px;
+                border-bottom: 1px solid #EAEAEA;
+                padding-bottom: 20px;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .cons{
+                // padding-top: 46px;
+            }
+            .information{
+                dl{
+                    display: flex;
+                    justify-content: left;
+                    padding:0 40px;
+                     margin-bottom: 30px;
+
+                    dt{
+                        width: 140px;
+                        text-align: center;
+                        img{
+                            width: 140px;
+                            border-radius: 50%;
+
+                        }
+                    }
+                    dd{
+                        margin-left: 70px;
+                        padding-top: 20px;
+                        ul{
+                            li{
+                                height: 30px;
+                                line-height: 30px;
+                                span{
+                                    display: inline-block;
+                                    min-width: 90px;
+                                    text-align: right;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .security{
+                .title{
+                    border-bottom: 1px solid #EAEAEA;
+                    padding-bottom: 25px;
+                    font-size: 18px;
+                }
+            }
+        }
+
+    }
+}
